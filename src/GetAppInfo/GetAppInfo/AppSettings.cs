@@ -2,8 +2,5 @@ public class AppSettings
 {
     public string Environment { get; set; }
 
-    public AppSettings()
-    {
-        
-    }
+    public AppSettings(){}
 }
