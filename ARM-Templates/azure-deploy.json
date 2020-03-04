@@ -11,10 +11,8 @@
     },
     "environments": {
       "defaultValue": [
-        "Dev",
-        "QA",
-        "UAT",
-        "Preview"
+        "DEV",
+        "TEST"
       ],
       "type": "array",
       "metadata": {
@@ -32,7 +30,7 @@
   },
   "variables": {
     "standardPlanMaxAdditionalSlots": 4,
-    "webAppPortalName": "[concat(parameters('baseResourceName'), 'Portal')]",
+    "webAppPortalName": "[concat(parameters('baseResourceName'), '-Portal')]",
     "appServicePlanName": "[concat('AppServicePlan-', parameters('baseResourceName'))]"
   },
   "resources": [
