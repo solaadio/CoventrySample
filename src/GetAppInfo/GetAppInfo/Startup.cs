@@ -32,7 +32,7 @@ namespace MyFirstDotNetCoreApp
                 c.SwaggerDoc("v1", new Info
                 {
                     Version = "v1",
-                    Title = Configuration["AppSettings:Environment"],
+                    Title = Configuration["AppSettings:Environment"] + "Environment",
                     Description = "Implementation of Sample Code in " + Configuration["AppSettings:Environment"],
                     TermsOfService = "None",
                     Contact = new Contact
